@@ -2,72 +2,73 @@
     {
         "id": 1,
         "name": "Dell 2",
-        "price": 1,
-        "photo": 1
+        "price": 40000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuFQg1QG_3cU5Gnam2TIS-tpVtaU1HwTyvNjofzOvgiQtUbQmoRL4O5qwt18BbB7_hYNE&usqp=CAU"
     },
     {
         "id": 2,
         "name": "HP y",
-        "photo": 1
+        "price": 45000,
+        "photo": "https://api.time.com/wp-content/uploads/2016/04/hp-spectre-13-3_aerial-view.jpg"
     },
     {
         "id": 3,
         "name": "Lenovo yoga",
-        "price": 1,
-        "photo": 1
+        "price": 39000,
+        "photo": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Lenovo_Yoga_7i_Gen_7_16inch_Two_Mode.png"
     },
     {
         "id": 4,
-        "name": "Max 1",
-        "price": 1,
-        "photo": 1
+        "name": "Mac 1",
+        "price": 79000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_TYBP_LFw0AKLvu5autphOOvBeSBTJGgUQ&usqp=CAU"
     },
     {
         "id": 5,
-        "name": "",
-        "price": 1,
-        "photo": 1
+        "name": "Assus A",
+        "price": 52000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScU7UTSU8NkJIUfkhmgkVCOImMHTMZCLwQSuabkadym50dojc5jjd6SPDM3oesEQkHyb8&usqp=CAU"
     },
     {
         "id": 6,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Samsung G",
+        "price": 60000,
+        "photo": "https://m.media-amazon.com/images/I/819QD8+XiFL._AC_SL1500_.jpg"
     },
     {
         "id": 7,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Samsung M",
+        "price": 67000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7lYlRjkFQ09g10wua8LT7x9nnOmytwH9kGw&usqp=CAU"
     },
     {
         "id": 8,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "HP VS",
+        "price": 53000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4KQE4a3ywA7KA1p01UtY9y8UF4TGQm3_b1m4nWEkxng-cntQtJwJkXQIxByQRK2MApxo&usqp=CAU"
     },
     {
         "id": 9,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Mac 2",
+        "price": 89000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStX3azhmMUnVCa-Z4W7mc3y0pvHZv-eF4pVw&usqp=CAU"
     },
     {
         "id": 10,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Walton T",
+        "price": 36000,
+        "photo": "https://waltonbd.com/image/catalog/Computer/Laptop/Prelude%20R1/WPR14N34GL/f1.png"
     },
     {
         "id": 11,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Dell D",
+        "price": 42000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThwb9gQBg9C6EaGt4ueozHAtYiQtzCO_hjaA&usqp=CAU"
     },
     {
         "id": 12,
-        "name": 1,
-        "price": 1,
-        "photo": 1
+        "name": "Asus",
+        "price": 79000,
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2r8OfCOInWg5gEvAB-bp3hQ3_Ah7wLIejIq2L1thSKNa6Mqlw3g6AQFeue_JyXGMNGQg&usqp=CAU"
     }
 ]

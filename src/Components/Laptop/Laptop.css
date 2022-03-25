@@ -1,0 +1,31 @@
+.laptop img{
+    width: 250px;
+    height: 270px;
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.laptop{
+   border: 3px solid salmon;
+   border-radius: 20px;
+   margin:30px 20px;
+}
+.laptop h2{
+    margin-left: 15px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: lightsalmon;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: white;
+}
+.icon{
+    color: red;
+    margin-left: 8px;
+    font-size: 22px;
+}
