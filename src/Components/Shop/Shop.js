@@ -11,9 +11,21 @@ const Shop = () => {
             .then(data => setLaptops(data))
     }, [])
 
-    // const [laptopName, setLaptopName] = useState('')
-    const addToCart = (name) => {
-        console.log(name)
+    // set laptop on cart
+    const [cart, setCart] = useState([])
+
+    const addToCart = (laptop) => {
+        const newCart = [...cart, laptop]
+        setCart(newCart)
+    }
+
+    let chooseOne = () => {
+        let choseItem = cart[Math.floor(Math.random() * cart.length)];
+        console.log(choseItem)
+    }
+
+    if (cart.length <= 4) {
+        // let choseItem = cart[Math.floor(Math.random() * cart.length)];
     }
 
     return (
@@ -25,9 +37,16 @@ const Shop = () => {
                 }
             </div>
             <div className="cart">
-                <h1>galo</h1>
+                {
+                    cart.map(item => <h2 key={item.id}>{item.name}</h2>)
+                }
+                <div>
+                    <button onClick={chooseOne} className="btn-group">Choose 1 for me</button>
+                    <button className="btn-group">Choose again</button>
+                </div>
             </div>
         </div>
+
     );
 };
 

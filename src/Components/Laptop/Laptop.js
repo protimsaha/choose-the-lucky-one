@@ -10,7 +10,7 @@ const Laptop = ({ laptop, addToCart }) => {
             <img src={photo} alt="" />
             <h2>Name: {name}</h2>
             <h2>Price:{price}</h2>
-            <div onClick={() => addToCart(name)} className='button'>
+            <div onClick={() => addToCart(laptop)} className='button'>
                 <p>Add To Cart</p>
                 <FontAwesomeIcon className='icon' icon={faLaptop}></FontAwesomeIcon>
             </div>
