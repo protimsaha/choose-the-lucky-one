@@ -34,7 +34,6 @@ const Shop = () => {
 
     return (
         <div className='shop-container'>
-            {/* <div className='row'> */}
             <div className="product">
                 {
                     laptops.map(laptop => <Laptop laptop={laptop}
@@ -54,9 +53,7 @@ const Shop = () => {
                     <button onClick={chooseAgain} className="btn-group">CHOOSE AGAIN</button>
                 </div>
             </div>
-            {/* </div> */}
         </div>
-
     );
 };
 
