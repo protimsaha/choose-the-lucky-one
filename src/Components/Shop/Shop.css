@@ -22,24 +22,24 @@ grid-template-columns: repeat(3 ,1fr);
     margin: 8px;
     padding: 15px;
 }
+.choosen{
+    background-color: azure;
+    padding: 20px;
+    margin: 15px;
+    color: black;
+}
 
 @media screen and (max-width:380px){
-    .product{
-        display: grid;
-        grid-template-columns:repeat(3,1fr);
-    }
-}
-@media screen and (max-width:1000px){
     .shop-container{
-        display: grid;
-        grid-template-columns: repeat(2 , 1fr);
-    }
-    .cart{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
     .product{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
