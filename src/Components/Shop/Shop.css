@@ -27,6 +27,15 @@ grid-template-columns: repeat(3 ,1fr);
     padding: 20px;
     margin: 15px;
     color: black;
+    border-radius: 15px;
+}
+.choosen-item{
+    border:1px solid saddlebrown;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color:blanchedalmond;
 }
 
 @media screen and (max-width:380px){

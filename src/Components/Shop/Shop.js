@@ -46,12 +46,12 @@ const Shop = () => {
                     cart.map(item => <h2 key={item.id}>{item.name}</h2>)
                 }
                 <div className='choosen'>
-                    <h3>Chosen Item</h3>
-                    <h1>{choose}</h1>
+                    <h3>CHOOSEN ITEM</h3>
+                    <h2 className='choosen-item'>{choose}</h2>
                 </div>
                 <div>
-                    <button onClick={chooseOne} className="btn-group">Choose 1 for me</button>
-                    <button onClick={chooseAgain} className="btn-group">Choose again</button>
+                    <button onClick={chooseOne} className="btn-group">CHOOSE 1 FOR ME</button>
+                    <button onClick={chooseAgain} className="btn-group">CHOOSE AGAIN</button>
                 </div>
             </div>
             {/* </div> */}

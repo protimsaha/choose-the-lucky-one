@@ -8,7 +8,7 @@ const Laptop = ({ laptop, addToCart }) => {
     return (
         <div className='laptop'>
             <img src={photo} alt="" />
-            <h2>Name: {name}</h2>
+            <h4>Name: {name}</h4>
             <h2>Price:{price}</h2>
             <div onClick={() => addToCart(laptop)} className='button'>
                 <p>Add To Cart</p>
