@@ -1,4 +1,5 @@
 import './App.css';
+import Accordian from './Components/Accordian/Accordian';
 import Shop from './Components/Shop/Shop';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className='body'>
       <h1 className='title'>Grab LAPTOP</h1>
       <Shop></Shop>
+      <Accordian></Accordian>
     </div>
   );
 }
